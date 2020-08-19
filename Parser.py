@@ -37,11 +37,11 @@ for thing in file_contents:
         print(f"Skipped {poke_name}")
         data.append([wiki_link, poke_name, "No Spawn/Legend"])
 with open("wiki.txt", "a", encoding="utf-8") as output:
-    for thingy in data:
-        output.write(f'{thingy[0]}\n')
+    for point in data:
+        output.write(f'{point[0]}\n')
 with open("name.txt", "a", encoding="utf-8") as output:
-    for thingy in data:
-        output.write(f'{thingy[1]}\n')
+    for point in data:
+        output.write(f'{point[1]}\n')
 with open("chance.txt", "a", encoding="utf-8") as output:
-    for thingy in data:
-        output.write(f'{thingy[2]}\n')
+    for point in data:
+        output.write(f'{point[2]}\n')
